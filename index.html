@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Escola</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="script.js"></script>
+    </head>
+    <header>
+        <h1>LIFE</h1>
+    </header>
+    <body>
+        <div class="mapa">
+            <div class="column1">
+                <img src="coluna_esq.png">
+            </div>
+            <div class="column2">
+                <div class="c2r1 buroc">
+                    <div class="c2r1c1 c2r1c1l">
+                        <div class="est2 container compHover  ve">
+                            <div class="overlay"><p class="rotac">Estacionamento</p></div>
+                        </div>
+                        <div class="c2r1c1r2">
+                            <div class="circle vc"><p class="rotac">Área superior</p></div>
+                            <div class="a1 vc"><p class="rotac">Ativa </p></div>
+                            <div class="a2 vc"><p class="rotac">e direção</p></div>
+                        </div>
+                    </div>
+                    <div class="c2r1c1 c2r1c1r">
+                        <div class="labCima vm"><p class="pLab rotac">Lab informatica 1 e 2, gestão<br> e sala modular</p></div>
+                        <div>
+                            <div class="lab vm"><p class="rotac">Burocracia</p></div>
+                            <div class="lab vm"><p class="rotac">Lab Física, Química e Biologia</p></div>
+                        </div>
+                    </div>
+                    <div class="areia vc">
+                        <p class="rotac">Quadra de areia</p>
+                    </div>
+                </div>
+                <div class="c2r1 constr">
+                    <div>
+                        <div class="quad_l1">
+                            <div class=" quad_inf vm"><p class="rotac">Biblioteca</p></div>
+                        </div>
+                        <div class="quad_l2">
+                            <div class="quad_inf vm"><p class="rotac">Lab3 e hardware</p></div>
+                        </div>
+                        <div class="quad_l3">
+                            <div class="quad_inf vc"><p class="rotac">Galpão</p></div>
+                        </div>
+                    </div>
+                    <div class="construc vc"><p class="rotac">Construção Abandonada</p>
+
+                    </div>
+                </div>
+                <div class="c2r1 text">
+                    <div class="textBox">
+                        <h2>{textHover}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ <!-- button to open the popup -->
+<button class="open-button" onclick="openForm()">Abrir</button>
+
+<!-- PopUp Com as Infos -->
+<div class="popup" id="myForm">
+  <div class="containerForm">
+    <h1>Login</h1>
+    <label><b>Email</b></label>
+    <label><b>Password</b></label>
+    <button type="button" class="btn cancel" onclick="closeForm()">Fechar</button>
+  </div>
+</div>
+
+
+<br><br><br><br>
+<div class="w3-container">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Modal</button>
+</div>    
+
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+          <h2>TÍTULO</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec mauris eget nunc gravida maximus. Aliquam non vestibulum augue. Proin pharetra mauris id varius euismod. Mauris efficitur nisl nec lacus sollicitudin vulputate. Ut eu consectetur dolor. Phasellus sollicitudin sem eget metus elementum sagittis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean ultrices lectus sed aliquam mattis. Curabitur a nisi nisl. Cras vel condimentum nulla.
+
+            Curabitur elementum felis justo, eu maximus leo tempus a. Mauris vestibulum porttitor augue, eget commodo lectus rutrum non. Mauris et tortor cursus augue ornare iaculis id vitae arcu. Nullam justo elit, vestibulum a metus at, condimentum placerat diam. Aenean non enim ornare, auctor est at, tempus ex. Sed dolor nisi, dictum non porta et, pharetra nec purus. Cras porta mi eget lacus suscipit, id varius leo mattis.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    </body>
+</html>

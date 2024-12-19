@@ -1,0 +1,319 @@
+   body{
+    background-color: rgb(180, 241, 180);
+    justify-items: center;
+    font-size: 12px;
+    font-weight: bold;;
+  }
+  .mapa{
+    display: flex;
+    background-color: white;
+    width: 95%;
+    height: 600px;
+    justify-content: center;
+  }
+  img{
+    height: 556px;
+  }
+  .column1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .column2{
+    margin: 6% 0 0;
+    display: flex;
+    height: 556px;
+    padding: 10px;
+    transform: rotate(-15deg);
+    flex-direction: column;
+  }
+  .textBox{
+    border:solid 1px black;
+    text-align: center;
+    transform: rotate(15deg);
+    margin-top: 84px;
+  }
+  .vc{
+    background-color: rgb(174, 244, 206);
+    /*color:rgb(174, 244, 206);*/
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  .vm{
+    background-color: rgb(97, 219, 154);
+    /*color:rgb(97, 219, 154);*/
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+  .ve{
+    background-color: rgb(51, 138, 91);
+    /*color:rgb(51, 138, 91);*/
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: large;
+  }
+  
+  .vc:hover{
+    color:rgb(51, 138, 91);
+  }
+  .rotate:hover{
+    visibility: visible;
+    color:rgb(51, 138, 91);
+  }
+  .ve:hover{
+    color:#f1f1f1;
+  }
+
+  p{
+    margin: 0;
+    text-align: center;
+  }
+  .hidde{
+    visibility: hidden;
+  }
+
+  /*LADO DIREITO*/
+  .c2r1c1r2{
+    display: flex;
+  }
+  .quad_l1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .quad_l2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .quad_l3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .quad_inf{
+    margin: 5%;
+    padding: 2% 1vw 1%;
+    width: 6vw;
+  }
+  .construc{
+    width: 50%;
+    height: 66.6%;
+    font-size: large;
+  }
+  .buroc{
+    display: flex;
+  }
+  .constr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .est2{
+    display: block;
+    padding: 2.5vw 3vw;
+    border-radius: 6vw;
+  }
+  .c2r1c1 {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .c2r1c1l{
+    margin-right: 2px;
+    margin-left: 10%;
+  }
+  .circle{
+    margin: 2vw 0 0 0;
+    width: 3.8vw;
+    height:3.8vw;
+    border-radius: 50%;
+    font-size:1vw;
+  }
+  .a1{
+    margin: 2vw 0.2vw 1vw 2vw;
+    padding: 2vw 0.4vw 2vw;
+  }
+  .a2{
+    margin: 2vw 0.2vw 1vw 1vw;
+    padding: 2vw 0 1vw;
+    height: 1.3vw;
+  }
+  .lab{
+    width: 40%;
+    max-height: 10%;
+    padding: 0.9vw 0.5vw 0.9vw 0.5vw;
+    margin: 0.2vw;
+  }
+  .labCima{
+    width: 60%;
+    margin: 0.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .areia{
+    width: 10%;
+    align-items: center;
+    margin: 7vw 0 2vw -3vw;
+  }
+  .rotac{
+    font-size: 70%;
+    font-weight: normal;
+  }
+  .pLab{
+    width: 180%;
+  }
+
+  /*LADO ESQUERDO*/
+  .quadEst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .est1{
+    padding: 0 0.5vw;
+    border-radius: 0 2.8vw 2.8vw 0;
+    text-align: center;
+    height: 6vw;
+  }
+  .quadradinhos{
+    top: 385px;
+    left: 336px;
+  }
+  .quad{
+    padding: 1.2vw;
+  }
+  .c1r1l1{
+    position: relative;
+    bottom: 385px;
+    left: 5px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .entrada{
+    width: 30%;
+    height: 10px;
+    margin-bottom: 29px;
+  }
+  .salas_circle{
+    position:relative;
+    width: 3.8vw;
+    height: 3.8vw;
+    margin-top: 17px;
+    border-radius: 50%;
+    font-size: 1vw;
+    /*opacity: 80%;*/
+  }
+  .c1r1{
+    margin:2%;
+  }
+  .l3{
+    transform: rotate(-2deg);
+    width: 40px;
+    bottom: 269px;
+    left: 400px;
+  }
+  .l4{
+    transform: rotate(-15deg);
+    width: 80px;
+    bottom: 219px;
+    left: 276px;
+    height: 35px;
+  }
+  .l5{
+    transform: rotate(60deg);
+    bottom: 121px;
+    left: 239px;
+  }
+  .salas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .salas_esq{
+    display: flex;
+    height: 175px;
+    width: 50px;
+  }
+  .sal{
+    margin: 5px 23px 2px 7px;
+  }
+  .c3{
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .cq{
+    margin:3px;
+  }
+
+
+
+  /*Script CSS for FORM*/
+
+    /* Button used to open the contact form - fixed at the bottom of the page */
+    .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+    }
+
+    /* The popup form - hidden by default */
+    .popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 100;
+    }
+
+    /* Add styles to the form container */
+    .containerForm {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    }
+
+    /* Set a style for the submit/login button */
+    .container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    }
+
+    /* Add a red background color to the cancel button */
+    .container .cancel {
+    background-color: red;
+    }
+
+    /* Add some hover effects to buttons */
+    .container .btn:hover, .open-button:hover {
+    opacity: 1;
+    }
